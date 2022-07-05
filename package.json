@@ -1,6 +1,6 @@
 {
-  "name": "project-name-here",
-  "description": "",
+  "name": "Product preview card component",
+  "description": "Challenge by Frontend Mentor (https://www.frontendmentor.io?ref=challenge)",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -206,7 +206,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.27.9",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.51.0"
@@ -216,9 +216,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/YariMorcus/product-preview-card-component"
   },
-  "author": "",
+  "author": "Yari Morcus",
   "license": "MIT",
   "bugs": {
     "url": ""
