@@ -13,7 +13,7 @@ Primary use:    Portfolio project
     2. [VARIABLES] Typography
     3. Global
     4. Utility classes
-    5. Card component
+    5. Product card preview component
     6. Header
         6.1 Headings
     7. Content
@@ -53,3 +53,49 @@ Primary use:    Portfolio project
 /*------------------------------------------------------------------
 3. Global
 */
+html,
+body {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  flex: 1;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+/*------------------------------------------------------------------
+5. Product card preview component
+*/
+.product-card {
+  width: 90%;
+  border: 1px solid;
+}
+
+/*------------------------------------------------------------------
+8. Footer
+*/
+.attribution {
+  border: 1px solid;
+}
