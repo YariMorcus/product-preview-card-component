@@ -152,12 +152,13 @@ a {
 
     &-text {
         margin-top: 0;
+        margin-bottom: 4rem;
+        line-height: 1.8 !important;
         font: $font-size-paragraph sans-serif;
         color: $dark-grayish-blue;
     }
 
 }
-
 
 .card-section {
     padding: 3rem;
@@ -173,7 +174,7 @@ a {
     }
 
     &-discount {
-        font: 3.2rem 'Fraunces-48pt', serif;
+        font: 2.9rem 'Fraunces-48pt', serif;
         color: $dark-cyan;
         text-decoration: none;
     }
