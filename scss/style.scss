@@ -125,7 +125,6 @@ a {
     &-card {
         width: 90%;
         background-color: $white;
-        border: 1px solid;
         border-radius: 1.5rem;
     }
 
@@ -137,23 +136,31 @@ a {
     }
 
     &-label {
-        font: 500 2rem sans-serif;
+        display: inline-block;
+        margin-bottom: 1rem;
+        font: 500 1.25rem sans-serif;
+        color: $dark-grayish-blue;
         text-transform: uppercase;
+        letter-spacing: 0.5rem;
     }
 
     &-title {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
         font: 3rem 'Fraunces-48pt', serif
     }
 
     &-text {
-        font: 1.5rem sans-serif;
+        margin-top: 0;
+        font: $font-size-paragraph sans-serif;
+        color: $dark-grayish-blue;
     }
 
 }
 
 
 .card-section {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .price {

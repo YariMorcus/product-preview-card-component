@@ -92,7 +92,6 @@ a {
 .product-card {
   width: 90%;
   background-color: hsl(0deg, 0%, 100%);
-  border: 1px solid;
   border-radius: 1.5rem;
 }
 .product-image {
@@ -102,18 +101,26 @@ a {
   border-top-right-radius: 1.5rem;
 }
 .product-label {
-  font: 500 2rem sans-serif;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font: 500 1.25rem sans-serif;
+  color: hsl(228deg, 12%, 48%);
   text-transform: uppercase;
+  letter-spacing: 0.5rem;
 }
 .product-title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
   font: 3rem "Fraunces-48pt", serif;
 }
 .product-text {
-  font: 1.5rem sans-serif;
+  margin-top: 0;
+  font: 1.4rem sans-serif;
+  color: hsl(228deg, 12%, 48%);
 }
 
 .card-section {
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .price-container {
