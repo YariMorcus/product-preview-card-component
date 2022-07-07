@@ -187,6 +187,8 @@ a {
 }
 
 .card-button {
+    display: flex;
+    justify-content: center;
     width: 100%;
     color: $white;
     background-color: $dark-cyan;
@@ -194,6 +196,11 @@ a {
     border-radius: .6rem;
     padding: 1rem 0;
     font-weight: 700;
+
+    &-icon {
+        position: relative;
+        right: 1rem;
+    }
 }
 
 /*------------------------------------------------------------------

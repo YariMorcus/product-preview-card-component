@@ -142,6 +142,8 @@ a {
 }
 
 .card-button {
+  display: flex;
+  justify-content: center;
   width: 100%;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(158deg, 36%, 37%);
@@ -149,6 +151,10 @@ a {
   border-radius: 0.6rem;
   padding: 1rem 0;
   font-weight: 700;
+}
+.card-button-icon {
+  position: relative;
+  right: 1rem;
 }
 
 /*------------------------------------------------------------------
