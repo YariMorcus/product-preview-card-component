@@ -77,6 +77,7 @@ main {
   display: grid;
   place-items: center;
   flex: 1;
+  background-color: hsl(30deg, 38%, 92%);
 }
 
 a {
@@ -90,7 +91,55 @@ a {
 */
 .product-card {
   width: 90%;
+  background-color: hsl(0deg, 0%, 100%);
   border: 1px solid;
+  border-radius: 1.5rem;
+}
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.product-label {
+  font: 500 2rem sans-serif;
+  text-transform: uppercase;
+}
+.product-title {
+  font: 3rem "Fraunces-48pt", serif;
+}
+.product-text {
+  font: 1.5rem sans-serif;
+}
+
+.card-section {
+  padding: 2rem;
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: [discount-start] 1fr [discount-end original-start] 1fr [original-end];
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.price-discount {
+  font: 3.2rem "Fraunces-48pt", serif;
+  color: hsl(158deg, 36%, 37%);
+  text-decoration: none;
+}
+.price-original {
+  font-size: 1.6rem;
+  color: hsl(228deg, 12%, 48%);
+}
+
+.card-button {
+  width: 100%;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(158deg, 36%, 37%);
+  border: 2px solid hsl(158deg, 36%, 34%);
+  border-radius: 0.6rem;
+  padding: 1rem 0;
+  font-weight: 700;
 }
 
 /*------------------------------------------------------------------
