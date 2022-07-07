@@ -92,13 +92,13 @@ a {
 .product-card {
   width: 90%;
   background-color: hsl(0deg, 0%, 100%);
-  border-radius: 1.5rem;
+  border-radius: 1.3rem;
 }
 .product-image {
   max-width: 100%;
   height: auto;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
 }
 .product-label {
   display: inline-block;
