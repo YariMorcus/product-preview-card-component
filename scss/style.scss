@@ -182,6 +182,26 @@ a {
     &-original {
         font-size: 1.6rem;
         color: $dark-grayish-blue;
+
+        &::before,
+        &::after {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            clip: rect(1px, 1px, 1px, 1px);
+            clip-path: inset(100%);
+
+        }
+
+        &::before {
+            content: "[deletion start] ";
+        }
+
+        &::after {
+            content: "[deletion end] ";
+        }
     }
 
 }

@@ -140,6 +140,21 @@ a {
   font-size: 1.6rem;
   color: hsl(228deg, 12%, 48%);
 }
+.price-original::before, .price-original::after {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(100%);
+}
+.price-original::before {
+  content: "[deletion start] ";
+}
+.price-original::after {
+  content: "[deletion end] ";
+}
 
 .card-button {
   display: flex;
