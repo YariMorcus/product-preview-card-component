@@ -1,0 +1,6 @@
+// Nedia query for breakpoint 568px and bigger (mobile first apprach)
+@mixin landscape-orientation {
+    @media screen and (orientation: landscape) {
+        @content;
+    }
+}
