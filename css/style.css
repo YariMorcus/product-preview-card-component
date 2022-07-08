@@ -90,6 +90,7 @@ a {
 5. Product card preview component
 */
 .product-card {
+  margin-top: 1.28rem;
   width: 90%;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 1.3rem;
