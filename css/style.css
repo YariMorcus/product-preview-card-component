@@ -10,9 +10,9 @@ Primary use:    Portfolio project
     1. [VARIABLES] Colors
         1.1 Primary
         1.2 Neutral
-    2. [VARIABLES] Typography
-    3. Global
-    4. Utility classes
+    2. Import media query module
+    3. [VARIABLES] Typography
+    4. Global
     5. Product card preview component
     6. Header
         6.1 Headings
@@ -29,7 +29,10 @@ Primary use:    Portfolio project
     1.2 Neutral
 */
 /*------------------------------------------------------------------
-2. [VARIABLES] Typography
+2. Import media query module
+*/
+/*------------------------------------------------------------------
+3. [VARIABLES] Typography
 */
 @font-face {
   font-family: "Fraunces-48pt";
@@ -51,7 +54,7 @@ Primary use:    Portfolio project
   font-style: normal;
 }
 /*------------------------------------------------------------------
-3. Global
+4. Global
 */
 html,
 body {
@@ -90,9 +93,16 @@ a {
 5. Product card preview component
 */
 .product-card {
+  margin-top: 2.5rem;
   width: 90%;
+  max-width: 338px;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 1.3rem;
+}
+@media screen and (orientation: landscape) {
+  .product-card {
+    margin-top: 2rem;
+  }
 }
 .product-image {
   max-width: 100%;
@@ -116,13 +126,14 @@ a {
 .product-text {
   margin-top: 0;
   margin-bottom: 4rem;
+  white-space: pre-line;
   line-height: 1.8 !important;
   font: 1.4rem sans-serif;
   color: hsl(228deg, 12%, 48%);
 }
 
 .card-section {
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .price-container {
@@ -177,7 +188,7 @@ a {
 8. Footer
 */
 .attribution {
-  padding: 1.28rem;
+  padding: 2rem 1.28rem 1.28rem;
   text-align: center;
   font-family: sans-serif;
   background-color: hsl(30deg, 38%, 92%);
