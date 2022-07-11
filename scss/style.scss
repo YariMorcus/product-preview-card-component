@@ -44,7 +44,7 @@ $white: hsl(0, 0%, 100%);
 2. Import media query module
 */
 
-@use 'modules/media-queries' as *;
+@use 'modules/media-queries' as media;
 
 /*------------------------------------------------------------------
 3. [VARIABLES] Typography
@@ -135,8 +135,14 @@ a {
         background-color: $white;
         border-radius: 1.3rem;
 
-        @include landscape-orientation {
+        @include media.landscape-orientation {
             margin-top: 2rem;
+        }
+
+        @include media.breakpoint-md {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 550px;
         }
     }
 
