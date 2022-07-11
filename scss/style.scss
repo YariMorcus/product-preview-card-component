@@ -139,7 +139,7 @@ a {
             margin-top: 2rem;
         }
 
-        @include media.breakpoint-md {
+        @include media.breakpoint-600 {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             max-width: 550px;
