@@ -177,12 +177,12 @@ a {
 .card-button {
   display: flex;
   justify-content: center;
+  padding: 1.1rem 0;
   width: 100%;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(158deg, 36%, 37%);
   border: 2px solid hsl(158deg, 36%, 34%);
   border-radius: 0.6rem;
-  padding: 1rem 0;
   font-weight: 700;
 }
 .card-button-icon {
