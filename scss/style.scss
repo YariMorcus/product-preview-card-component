@@ -165,6 +165,7 @@ a {
     &-text {
         margin-top: 0;
         margin-bottom: 4rem;
+        white-space: pre-line;
         line-height: 1.8 !important;
         font: $font-size-paragraph sans-serif;
         color: $dark-grayish-blue;
@@ -173,7 +174,7 @@ a {
 }
 
 .card-section {
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
 .price {

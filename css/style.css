@@ -126,13 +126,14 @@ a {
 .product-text {
   margin-top: 0;
   margin-bottom: 4rem;
+  white-space: pre-line;
   line-height: 1.8 !important;
   font: 1.4rem sans-serif;
   color: hsl(228deg, 12%, 48%);
 }
 
 .card-section {
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .price-container {
