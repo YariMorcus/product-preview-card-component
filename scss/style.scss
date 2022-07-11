@@ -180,6 +180,10 @@ a {
         line-height: 1.8 !important;
         font: $font-size-paragraph sans-serif;
         color: $dark-grayish-blue;
+
+        @include media.breakpoint-600 {
+            margin-bottom: 2.3rem;
+        }
     }
 
 }
@@ -195,6 +199,10 @@ a {
         grid-template-columns: [discount-start] 1fr [discount-end original-start] 1fr [original-end];
         align-items: center;
         margin-bottom: 1.5rem;
+
+        @include media.breakpoint-600 {
+            margin-bottom: 2.1rem;
+        }
     }
 
     &-discount {

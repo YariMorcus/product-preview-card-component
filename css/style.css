@@ -144,6 +144,11 @@ a {
   font: 1.4rem sans-serif;
   color: hsl(228deg, 12%, 48%);
 }
+@media (min-width: 600px) {
+  .product-text {
+    margin-bottom: 2.3rem;
+  }
+}
 
 .card-section {
   padding: 2.5rem;
@@ -154,6 +159,11 @@ a {
   grid-template-columns: [discount-start] 1fr [discount-end original-start] 1fr [original-end];
   align-items: center;
   margin-bottom: 1.5rem;
+}
+@media (min-width: 600px) {
+  .price-container {
+    margin-bottom: 2.1rem;
+  }
 }
 .price-discount {
   font: 2.9rem "Fraunces-48pt", serif;
