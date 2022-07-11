@@ -141,8 +141,9 @@ a {
 
         @include media.breakpoint-600 {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            max-width: 550px;
+            grid-template-columns: repeat(2, 310px);
+            grid-template-rows: 465px;
+            max-width: 620px;
         }
     }
 
@@ -189,7 +190,7 @@ a {
 }
 
 .card-section {
-    padding: 2.5rem;
+    padding: 3rem;
 }
 
 .price {
