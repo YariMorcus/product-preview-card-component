@@ -139,7 +139,7 @@ a {
             margin-top: 2rem;
         }
 
-        @include media.breakpoint-600 {
+        @include media.breakpoint-690 {
             display: grid;
             grid-template-columns: repeat(2, 310px);
             grid-template-rows: 465px;
@@ -153,7 +153,7 @@ a {
         border-top-left-radius: 1.3rem;
         border-top-right-radius: 1.3rem;
 
-        @include media.breakpoint-600 {
+        @include media.breakpoint-690 {
             border-top-right-radius: initial;
             border-bottom-left-radius: 1.3rem;
         }
@@ -182,7 +182,7 @@ a {
         font: $font-size-paragraph sans-serif;
         color: $dark-grayish-blue;
 
-        @include media.breakpoint-600 {
+        @include media.breakpoint-690 {
             margin-bottom: 2.3rem;
         }
     }
@@ -201,7 +201,7 @@ a {
         align-items: center;
         margin-bottom: 1.5rem;
 
-        @include media.breakpoint-600 {
+        @include media.breakpoint-690 {
             margin-bottom: 2.1rem;
         }
     }
