@@ -151,6 +151,11 @@ a {
         height: auto;
         border-top-left-radius: 1.3rem;
         border-top-right-radius: 1.3rem;
+
+        @include media.breakpoint-600 {
+            border-top-right-radius: initial;
+            border-bottom-left-radius: 1.3rem;
+        }
     }
 
     &-label {
