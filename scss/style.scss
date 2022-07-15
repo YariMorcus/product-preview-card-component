@@ -222,6 +222,10 @@ a {
         font-size: 1.6rem;
         color: $dark-grayish-blue;
 
+        @include media.breakpoint-690 {
+            padding-left: 1.5rem;
+        }
+
         &::before,
         &::after {
             position: absolute;

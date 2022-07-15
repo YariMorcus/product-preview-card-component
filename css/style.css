@@ -179,6 +179,11 @@ a {
   font-size: 1.6rem;
   color: hsl(228deg, 12%, 48%);
 }
+@media (min-width: 690px) {
+  .price-original {
+    padding-left: 1.5rem;
+  }
+}
 .price-original::before, .price-original::after {
   position: absolute;
   width: 1px;
