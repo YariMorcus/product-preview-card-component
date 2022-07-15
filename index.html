@@ -21,14 +21,17 @@
     <article class="product-card">
 
       <header>
-        <img class="product-image" srcset="images/image-product-desktop.jpg 600w, images/image-product-mobile.jpg 338w" sizes="(min-width: 600px) 600px, 338px" src="images/image-product-mobile.jpg" alt="A small glass perfume bottle of Chanel Gabrielle Paris with gold contents" width="338" height="236"> <!-- .product-image -->
+        <picture>
+          <source srcset="images/image-product-desktop.jpg" media="(min-width: 690px)">
+          <img class="product-image" src="images/image-product-mobile.jpg" alt="A small glass perfume bottle of Chanel Gabrielle Paris with gold contents">
+        </picture>
       </header>
 
       <section class="card-section">
         <span class="product-label">Perfume</span>
         <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
-        <p class="product-text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-
-          Creator for the House of CHANEL.</p>
+        <p class="product-text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the 
+          House of CHANEL.</p>
 
         <div class="price-container">
           <ins class="price-discount">&#36;149.99</ins>
