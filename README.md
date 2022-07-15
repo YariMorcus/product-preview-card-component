@@ -56,7 +56,7 @@ The users should be able to:
 5. How I can make the `<del>` element accessible
 6. How Sass variables and partials work (the basics for now)
 7. To always keep my CSS organized
-8. How to create an image overlay with a solid color
+8. To keep testing the application for accessibility
 
 ### Continued development
 
