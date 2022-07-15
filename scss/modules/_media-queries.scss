@@ -4,3 +4,10 @@
         @content;
     }
 }
+
+// 690px and larger
+@mixin breakpoint-690 {
+    @media (min-width: 690px) {
+        @content;
+    }
+}
