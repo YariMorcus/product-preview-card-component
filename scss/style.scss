@@ -70,22 +70,24 @@ $button-state-hover: hsl(156, 42%, 18%);
 
 // Font family: Montserrat, font-weight: bold
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-bold.woff2') format('woff2'),
+        url('../fonts/montserrat-bold.woff') format('woff'),
+        url('../fonts/montserrat-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-
+    font-display: swap;
 }
 
 // Font family: Montserrat, font-weight: medium
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat-medium-webfont.woff') format('woff');
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-medium.woff2') format('woff2'),
+        url('../fonts/montserrat-medium.woff') format('woff'),
+        url('../fonts/montserrat-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-
+    font-display: swap;
 }
 
 // Body copy
@@ -173,7 +175,7 @@ a {
     &-label {
         display: inline-block;
         margin-bottom: 1rem;
-        font: 500 1.25rem sans-serif;
+        font: 500 1.25rem "montserrat", sans-serif;
         color: $dark-grayish-blue;
         text-transform: uppercase;
         letter-spacing: 0.5rem;
@@ -189,7 +191,7 @@ a {
         margin-top: 0;
         margin-bottom: 4rem;
         line-height: 1.8 !important;
-        font: $font-size-paragraph sans-serif;
+        font: 500 $font-size-paragraph "montserrat", sans-serif;
         color: $dark-grayish-blue;
 
         @include media.breakpoint-690 {
@@ -257,11 +259,12 @@ a {
     justify-content: center;
     padding: 1.5rem 0;
     width: 100%;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
     color: $white;
     background-color: $dark-cyan;
     border: none;
     border-radius: .6rem;
-    font-weight: 700;
 
     &-icon {
         position: relative;
@@ -283,7 +286,6 @@ a {
 .attribution { 
     padding: 2rem 1.28rem;
     text-align: center;
-    font-family: sans-serif;
+    font: 500 1.4rem "montserrat", sans-serif;
     background-color: $cream;
-    font-size: 1.4rem;
 }

@@ -47,16 +47,18 @@ Primary use:    Portfolio project
   font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat-medium-webfont.woff") format("woff");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-medium.woff2") format("woff2"), url("../fonts/montserrat-medium.woff") format("woff"), url("../fonts/montserrat-medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 /*------------------------------------------------------------------
 4. Global
@@ -135,7 +137,7 @@ a:focus {
 .product-label {
   display: inline-block;
   margin-bottom: 1rem;
-  font: 500 1.25rem sans-serif;
+  font: 500 1.25rem "montserrat", sans-serif;
   color: hsl(228deg, 12%, 48%);
   text-transform: uppercase;
   letter-spacing: 0.5rem;
@@ -149,7 +151,7 @@ a:focus {
   margin-top: 0;
   margin-bottom: 4rem;
   line-height: 1.8 !important;
-  font: 1.4rem sans-serif;
+  font: 500 1.4rem "montserrat", sans-serif;
   color: hsl(228deg, 12%, 48%);
 }
 @media (min-width: 690px) {
@@ -208,11 +210,12 @@ a:focus {
   justify-content: center;
   padding: 1.5rem 0;
   width: 100%;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(158deg, 36%, 37%);
   border: none;
   border-radius: 0.6rem;
-  font-weight: 700;
 }
 .card-button-icon {
   position: relative;
@@ -231,7 +234,6 @@ a:focus {
 .attribution {
   padding: 2rem 1.28rem;
   text-align: center;
-  font-family: sans-serif;
+  font: 500 1.4rem "montserrat", sans-serif;
   background-color: hsl(30deg, 38%, 92%);
-  font-size: 1.4rem;
 }
