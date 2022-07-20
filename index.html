@@ -13,6 +13,39 @@
   <link rel="stylesheet" href="css/style.css">
   
   <title>Product preview card component | Frontend Mentor</title>
+
+  <!-- 
+    schema.org Product Type 
+
+    Be aware of the following: 
+      The "sku" property value (UGG-BB-PUR-06) of the Product type has been chosen as an example
+      This is NOT a real product page, but something I just filled in as a practice
+  -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "brand": "CHANEL"
+      },
+      "name": "Gabrielle Essence Eau De Parfum",
+      "description": "ESSENCE is like a perfume nectar, a floral concentrate composed around 4 flowers: exotic and intense jasmine, ylang-ylang with radiant fruity notes, fresh and sparkling orange blossom and creamy and intensely feminine tuberose from Grasse.",
+      "image": "https://yarimorcus.github.io/product-preview-card-component/images/image-product-desktop.jpg",
+      "sku": "UGG-BB-PUR-06",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": "149.99",
+        "priceCurrency": "USD",
+        "url": "https://yarimorcus.github.io/product-preview-card-component/",
+        "priceSpecification": {
+          "validFrom": "2022-07-20",
+          "validThrough": "22-07-21"
+        }
+      }
+    }
+  </script>
 </head>
 <body>
 
